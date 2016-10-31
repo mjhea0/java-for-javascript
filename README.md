@@ -139,4 +139,9 @@ What else is new here? The `name()` method is not `static` (so it needs to be in
 
 ### Methods (instance vs static)
 
+- Static methods: Part of the class. Do not have to be instantiated to use.
+- Instance methods: Must be instantiated to use.
+
 ### `this`
+
+In Java `this` is always refers back to the current instance.
