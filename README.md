@@ -1,9 +1,15 @@
 # Java for JavaScript Developers
 
-## Why Java?
+## Java?
+
+Java is an object-oriented programming language. It's compiled to byte code
+which can then run on any Java Virtual Machine (JVM).
+
+### Why Java?
 
 1. **Fast**: Java is fast! To execute a program you must first compile it down to byte code. The Java Virtual Machine (JVM) then interprets the byte code much like how a JavaScript engine (like v8) interprets JavaScript. However, byte code runs faster since it is much closer to the native language of the computer.
-1. **Strict.** Java is great for large development teams since (a) the language itself is much stricter than JavaScript and (b) errors are generally caught earlier in the compilation phase.
+1. **Agnostic**: Once compiled, it can be ran on any computer that has the JVM installed. Write once, run anywhere.
+1. **Strict**: Java is great for large development teams since (a) the language itself is statically-typed so it's much stricter than JavaScript and (b) errors are generally caught earlier in the compilation phase.
 1. **Popular**: It's the most widely taught programming language. Plus, Java developers are typically the highest paid.
 
 ## Hello World
